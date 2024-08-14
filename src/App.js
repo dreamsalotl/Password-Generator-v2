@@ -33,7 +33,7 @@ function App() {
       <div className="Generator">
         <div className="Password">
           <h2>Generated Password</h2>
-          <input type="text" readOnly value={password} />
+          <div className="Password-display">{password}</div>
         </div>
         <div className="Options">
           <h2>Options</h2>
